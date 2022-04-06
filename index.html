@@ -1,50 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Single Price Grid Component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://unpkg.com/tailwindcss@2.2.4/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-  Join our community
 
-  30-day, hassle-free money back guarantee
-
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
-
-  Monthly Subscription
-
-  &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+<body style="background: #edf2f7;">
+    <div class="min-h-screen items-center ">
+        <div class="my-16 flex flex-wrap justify-center items-center">
+            <div class="flex flex-wrap w-1/2 rounded shadow-lg">
+                <div class="bg-gray-50 border-gray-50 p-24">
+                    <span class="text-xl" style="color:#2bb3b1; font-weight:bold;">Join our community</span>
+                    <br>
+                    <p class="mt-5" style="color:#c1d16a; font-weight:bold;"">30-day, hassle-free money back guarantee</p>
+                        <p class=" text-gray-400 mt-1">Gain access to our full library of tutorials along with expert code
+                        reviews.<br>
+                        Perfect for any developers who are serious about honing their skills.
+                    </p>
+                </div>
+                <div class="w-1/2 h-1/2 p-16" style="background-color: #2bb3b1;">
+                    <h2 class="text-gray-50 font-bold">Monthly Subscription</h2><br>
+                    <span class="text-gray-50 text-3xl font-bold">$29</span>
+                    <span class="text-gray-200 text-sm mb-12 ml-3 text-transparent">  per month</span>
+                    <p class="text-gray-100 text-sm mt-1">Full access for less than $1 a day</p>
+                    <button type="button"
+                    class="w-52 mt-6 px-3 py-3 text-sm text-bold shadow rounded-lg text-white" style="background-color: #bfdf32;">
+                    Sign up
+                    </button>
+                </div>
+                <div class="w-1/2 p-14" style="background-color: #4abebd;">
+                    <h2 class="text-gray-50 font-bold">Why Us</h2><br>
+                    <p class="text-xs mb-1" style="color: #86dfe2;">Tutorials by industry experts</p>
+                    <p class="text-xs mt-1" style="color: #86dfe2;">Coding exercise</p>
+                    <p class="text-xs mt-1" style="color: #86dfe2;">Access to our GitHub repos</p>
+                    <p class="text-xs mt-1" style="color: #86dfe2;">Peer &amp; expert code review</p>
+                    <p class="text-xs mt-1" style="color: #86dfe2;">Community forum</p>
+                    <p class="text-xs mt-1" style="color: #86dfe2;">Flashcard decks</p>
+                    <p class="text-xs mt-1" style="color: #86dfe2;">New videos every week</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
-</html>
